@@ -1,10 +1,8 @@
-# ionicApod
-
 Using NASA's astronomy picture of the day(APOD) as an Ionic 4 application.This application uses the typeScript and uses the framework
 Ionic inorder to display on various devices such as Android, iOS, Windows Phone, Web, Desktop & Progressive Web Apps(PWA).
 
 
-###Install
+#Install
 
 -install Ionic
   -npm install
@@ -18,7 +16,7 @@ Ionic inorder to display on various devices such as Android, iOS, Windows Phone,
 
 
 
-##How to run 
+#How to run 
  --download
  
  --Here is where you get the nasa api key "https://api.nasa.gov/#getting-started" need to sign in inorder to get it. 
@@ -27,13 +25,12 @@ Ionic inorder to display on various devices such as Android, iOS, Windows Phone,
 
  --to show on web go to terminal
 	 
-	 -ionic serve --lab -c          //three phone Operating systems on the web and connection to phone.
+	 -ionic serve --lab -c         
 	  
 	 -the above command will automatically send you to localhost:8100.
 	 
-				                    
-   
-##PWA
+				             
+#Progressive Web App
 
 --install Ionic DevApp, this needs to share the same wifi with the laptop.
 
@@ -41,7 +38,9 @@ Ionic inorder to display on various devices such as Android, iOS, Windows Phone,
 
 --To manually connect to Ionic Dev App 
      -click on the hamburger icon on the top left corner.
+     
      -MyIp on browser to get IP address.
+     
      -url = 8100
 
 
