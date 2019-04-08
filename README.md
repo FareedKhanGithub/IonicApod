@@ -1,5 +1,4 @@
-Using NASA's astronomy picture of the day(APOD) as an Ionic 4 application.This application uses the typeScript and uses the framework
-Ionic inorder to display on various devices such as Android, iOS, Windows Phone, Web, Desktop & Progressive Web Apps(PWA).
+Using NASA's astronomy picture of the day(APOD) API as an Ionic 4 application. This application uses TypeScript and uses the Ionic framework in order to function on various software environments such as Android, iOS, Windows Phone, Web, Desktop & Progressive Web Apps(PWA).
 
 
 #Install
