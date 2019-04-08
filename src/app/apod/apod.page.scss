@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Orbitron', sans-serif;
+}
+
+ion-card-content{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+}
+
+
+#apodVideo {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

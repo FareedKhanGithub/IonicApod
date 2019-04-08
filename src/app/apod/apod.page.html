@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+
+      <p style = "font-family:times new roman,garamond,serif;font-size:21px;">
+        <ion-title *ngIf="apod">{{ apod.title }} </ion-title>
+      </p>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-card *ngIf="apod">
+    <ion-button style="margin:0;" expand="full" size="large" [routerLink]="['/apod', date]">Random</ion-button>
+
+    <ion-img *ngIf="apod.media_type=='image'" [src]="apod.url" alt="{{ apod.title }}"></ion-img>
+
+    <div id="apodVideo" *ngIf="apod.media_type=='video'">
+      <iframe [src]="apod.url | safe: 'resourceUrl'" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+    <ion-card-header>
+      <ion-card-subtitle>
+        <span *ngIf="apod.copyright">&copy; {{  apod.copyright }},</span>
+        {{ apod.date | date }}
+      </ion-card-subtitle>
+      <ion-card-title>{{ apod.title }}</ion-card-title>
+    </ion-card-header>
+
+
+    <ion-card-content>
+      {{ apod.explanation }}
+    </ion-card-content>
+
+  </ion-card>
+
+</ion-content>
